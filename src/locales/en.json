@@ -1,8 +1,15 @@
 {
   "create-app": {
+    "title": "Create Your App",
     "labels": {
       "name": "App name",
       "icon": "App icon",
+      "icons-background": "Icon's background color",
+      "category": "Category"
+    },
+    "placeholder": {
+      "name": "App name",
+      "icon": "Select a file",
       "icons-background": "Icon's background color",
       "category": "Category"
     }

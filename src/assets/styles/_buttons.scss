@@ -1,0 +1,24 @@
+@import "mixins";
+@import "variables";
+
+.btn {
+  min-width: 125px;
+  height: 40px;
+  display: block;
+  align-items: center;
+  padding: 0 15px;
+
+  border-radius: 0.3rem;
+  border: 0;
+
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: bold;
+
+  @include box-shadow-default;
+}
+
+.btn-primary {
+  background: $green-300;
+  color: #FFFFFF;
+}

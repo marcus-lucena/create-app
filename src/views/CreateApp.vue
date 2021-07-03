@@ -1,6 +1,6 @@
 <template>
   <div class="create-app">
-    <h4>TEST</h4>
+    <Title :title="$t('create-app.title')" />
     <div class="field-grouping">
       <label>{{ $t("create-app.labels.name") }}</label>
       <input type="text" />
@@ -13,12 +13,12 @@
     </div>
     <div class="field-grouping">
       <label>{{ $t("create-app.labels.icons-background") }}</label>
-      <Verte />
+      <Verte picker="wheel" model="rgb" :value="iconColor" />
       <span></span>
     </div>
     <div class="field-grouping">
       <label>{{ $t("create-app.labels.category") }}</label>
-      <input type="text" />
+      <vSelect />
       <span></span>
     </div>
   </div>
@@ -26,17 +26,23 @@
 
 <script>
 import ImageUpload from "@/components/ImageUpload";
-import CreateAppMixin from "../mixins/CreateApp";
+import Title from "@/components/Title";
+import CreateAppMixin from "@/mixins/CreateApp";
 import Verte from "verte";
+import vSelect from "vue-select";
+
+import "vue-select/dist/vue-select.css";
 
 export default {
   name: "CreateApp",
   mixins: [CreateAppMixin],
   components: {
     ImageUpload,
+    Title,
     Verte,
+    vSelect,
   },
 };
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped></style>

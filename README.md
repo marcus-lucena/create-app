@@ -5,11 +5,11 @@
 de aplicativos, com upload de imagens e escolha do background</p>
 
 ## Bibliotecas usadas
-<a href="#">Axios</a>: <br />
-<a href="#">Mirage.js</a>: <br />
-<a href="#">Verte</a>: <br />
-<a href="#">Axios</a>: <br />
-<a href="#">Axios</a>: <br />
+<a href="#" target="_blank">Axios</a>: Promise based HTTP client for the browser and node.js <br />
+<a href="#" target="_blank">Mirage.js</a>: Serve mock local<br />
+<a href="https://baianat.github.io/verte/" target="_blank">Verte</a>: Color pick component<br />
+<a href="https://www.npmjs.com/package/vue-select" target="_blank">Vue Select</a>: Componete de select<br />
+<a href="https://lokalise.com/blog/vue-i18n/?utm_source=google&utm_medium=cpc&utm_campaign=GENERIC-BLOG_DSA-Vuejs&gclid=CjwKCAjwlYCHBhAQEiwA4K21m1ALH3p-zaFE0FglHozh19ofzEqovMK9FruLUIBmxNC458tI-wvp2RoCGp4QAvD_BwE" target="_blank">I18n</a>: Lang<br />
 
 ### Compiles and hot-reloads for development
 ```
