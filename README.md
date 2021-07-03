@@ -1,9 +1,15 @@
 # create-app
 
-## Project setup
-```
-yarn install
-```
+### Descrição do projeto
+<p>O objetivo de projeto é criar uma pagina reativa de cadastro 
+de aplicativos, com upload de imagens e escolha do background</p>
+
+## Bibliotecas usadas
+<a href="#">Axios</a>: <br />
+<a href="#">Mirage.js</a>: <br />
+<a href="#">Verte</a>: <br />
+<a href="#">Axios</a>: <br />
+<a href="#">Axios</a>: <br />
 
 ### Compiles and hot-reloads for development
 ```

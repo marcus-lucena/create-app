@@ -1,0 +1,16 @@
+{
+  "create-app": {
+    "labels": {
+      "name": "Nome do aplicativo",
+      "icon": "App icon",
+      "icons-background": "Icon's background color",
+      "category": "Category"
+    }
+  },
+  "card-review": {
+    "title": "App name"
+  },
+  "save-button": {
+    "text": "Save app"
+  }
+}
