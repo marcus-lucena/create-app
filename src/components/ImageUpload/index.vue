@@ -6,6 +6,7 @@
       @input-file="inputFile"
       @input-filter="inputFilter"
       :drop="true"
+      :draggable="true"
       :multiple="false"
       class="input-file-custom"
     >

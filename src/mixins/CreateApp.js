@@ -1,9 +1,27 @@
+import store from "@/store/index.js";
+
 let CreateAppMixin = {
   data: function () {
     return {
+      titleData: "",
       files: [],
-      iconColor: "#1a1a1a",
+      categoryValue: "",
+      iconColorData: "#1a1a1a",
     };
+  },
+  watch: {
+    titleData: (newValue) => {
+      store.dispatch("title", newValue);
+    },
+    files: (newValue) => {
+      store.dispatch("files", newValue[0]);
+    },
+    iconColorData: (newValue) => {
+      store.dispatch("iconColor", newValue);
+    },
+    categoryValue: (newValue) => {
+      store.dispatch("category", newValue);
+    },
   },
   methods: {
     inputFile: function (newFile, oldFile) {

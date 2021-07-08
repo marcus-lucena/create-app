@@ -28,3 +28,18 @@
 .input-form {
   @include input-base;
 }
+
+.select-form {
+  width: 100%;
+  display: block;
+
+  > div {
+    height: 40px !important;
+
+    @include box-shadow-default;
+
+    .vs__search {
+      color: red;
+    }
+  }
+}

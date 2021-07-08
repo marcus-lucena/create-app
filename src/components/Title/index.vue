@@ -28,7 +28,5 @@ export default {
   text-align: left;
   text-transform: uppercase;
   color: $gray-250;
-
-  border-bottom: $gray-100 1px solid;
 }
 </style>
